@@ -18,7 +18,7 @@
 /**
  * Font for overlay status.
  */
-#define OVERLAY_LABEL_FONT              [UIFont fontWithName:@"AvenirNext-Regular" size:16]
+#define OVERLAY_LABEL_FONT              [UIFont systemFontOfSize:16]
 
 /**
  * Text color for overlay status.
@@ -28,7 +28,7 @@
 /**
  * Fill color for activity default icon.
  */
-#define OVERLAY_ACTIVITY_DEFAULT_COLOR	[UIColor colorWithRed:102.0/255.0 green:204.0/255.0 blue:255.0/255.0 alpha:1.0]
+#define OVERLAY_ACTIVITY_DEFAULT_COLOR	[UIColor lightGrayColor]
 
 /**
  * Fill color for activity leaf icon.
